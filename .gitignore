@@ -165,7 +165,6 @@ _todo/
 **/.DS_Store
 
 # Ignore every file the directory
-datasets/*
 datasets_encoded/*
 datasets_prefix/*
 datasets_stats/*
@@ -173,7 +172,6 @@ datasets_sublog/*
 ml_results/*
 
 # But do not ignore the directory itself
-!datasets/.gitkeep
 !datasets_encoded/.gitkeep
 !datasets_prefix/.gitkeep
 !datasets_stats/.gitkeep
