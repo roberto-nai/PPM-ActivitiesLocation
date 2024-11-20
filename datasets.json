@@ -1,0 +1,25 @@
+[
+    {
+        "file_name": "BPIC11_f1_trunc36.csv",
+        "separator": ",",
+        "case_id_column": "case:concept:name",
+        "activity_column": "concept:name",
+        "timestamp_column": "time:timestamp",
+        "event_number_column": "event_nr",
+        "outcome_column": "label",
+        "outcome_value_1": 1,
+        "outcome_value_0": 0,
+        "prefix_list": [10, 20, 30]
+    },
+    {
+        "file_name": "BPIC11_f2_trunc40.csv",
+        "separator": ",",
+        "case_id_column": "case:concept:name",
+        "activity_column": "concept:name",
+        "timestamp_column": "time:timestamp",
+        "event_number_column": "event_nr",
+        "outcome_column": "label",
+        "outcome_value_1": 1,
+        "outcome_value_0": 0
+    }
+]

@@ -1,0 +1,24 @@
+# config.yml
+
+DATASETS_DIR: datasets                  # Starting direcotry with original datasets
+DATASETS_ENCODED_DIR: datasets_encoded  # Directory with datasets encoded
+DATASETS_STATS_DIR: datasets_stats      # Directory with datasets stats
+DATASETS_PREFIX_DIR: datasets_prefix    # Directory with datasets stats
+DATASETS_SUBLOG_DIR: datasets_sublog    # Directory with datasets sublog (from prefixes)
+ML_RESULTS_DIR: ml_results              # Directory with ML results
+UTILITIES_DIR: utilities                # Directory with useful functions
+DATASETS_CONFIG: datasets.json          # List of datasets to be used and names of feature columns
+DATASETS_NUM: 1                         # Number of datasets to be considered starting from the first one, respect the list in DATASETS_CONFIG (0 = all)
+DATASETS_DEFAULT_SEP: ","               # CSV default separator
+LOG_DEFAULT_CASEID: case:concept:name   # Default feature name
+LOG_DEFAULT_ACTIVITY: concept:name      # Default feature name
+LOG_DEFAULT_TIMESTAMP: time:timestamp   # Default feature name
+LOG_DEFAULT_EVENT_NR: event_nr          # Default feature name
+LOG_DEFAULT_OUTCOME: label              # Default feature name
+LOG_DEFAULT_THRESHOLD: 2                # Default value of minimum case length
+ENCODING_TYPE: I                        # I = Index, F = Frequency, B = Boolean
+TASK_ML:                                # Which ML algorithm must run (1 yes, 0 no)
+  XGB: 1
+TASK_SCRIPT:                            # Which task the script must run (1 yes, 0 no)
+  ENCODING: 0
+  PREDICTION: 0
