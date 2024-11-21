@@ -22,3 +22,7 @@ TASK_ML:                                # Which ML algorithm must run (1 yes, 0 
 TASK_SCRIPT:                            # Which task the script must run (1 yes, 0 no)
   ENCODING: 0
   PREDICTION: 0
+DEFAULT_SPLIT:                          #  Training, Evaluation, Test
+  - 0.7
+  - 0.15
+  - 0.15

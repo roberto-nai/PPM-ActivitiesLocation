@@ -9,7 +9,8 @@
         "outcome_column": "label",
         "outcome_value_1": 1,
         "outcome_value_0": 0,
-        "prefix_list": [10, 20, 30]
+        "prefix_list": [10, 20, 30],
+        "train_val_test_split": [0.7, 0.15, 0.15]
     },
     {
         "file_name": "BPIC11_f2_trunc40.csv",
@@ -20,6 +21,8 @@
         "event_number_column": "event_nr",
         "outcome_column": "label",
         "outcome_value_1": 1,
-        "outcome_value_0": 0
+        "outcome_value_0": 0,
+        "prefix_list": [10, 20, 30],
+        "train_val_test_split": [0.7, 0.15, 0.15]
     }
 ]

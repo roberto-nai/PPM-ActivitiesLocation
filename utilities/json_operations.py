@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from typing import Union
 
-def extract_data_from_json(json_file: Union[str, Path]):
+def extract_data_from_json(json_file: Union[str, Path]) -> list[dict]:
     """
     Extracts data from a JSON file and returns it as a list of dictionaries.
 
@@ -24,7 +24,6 @@ def extract_data_from_json(json_file: Union[str, Path]):
     # Convert Path to string if necessary
     if isinstance(json_file, Path):
         json_file = str(json_file)
-
     try:
         with open(json_file, "r", encoding="utf-8") as f:
             data = json.load(f)
